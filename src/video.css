@@ -1,0 +1,14 @@
+.videoContainer {
+    width: auto;
+    height: 100%;   
+}
+
+/*local video style*/
+.innerVideoContainer > video {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
